@@ -540,7 +540,7 @@ public:
             cin >> new_email;
             while (!isEmailCorrect(new_email))
             {
-                cout <<fggreen<<printtabs(8)<<  "Enter a valid Email address(Only IIT Jodhpur official email addresses are considered valid) ";
+                cout <<fggreen<<printtabs(8)<<  "Enter a valid Email address(Only VIT University official email addresses are considered valid) ";
                 cin >> new_email;
             }
             profileToEdit.email = new_email;
