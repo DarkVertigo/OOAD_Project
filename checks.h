@@ -84,7 +84,7 @@ bool isEmailCorrect(string email, int *tried = NULL)
     }
     int n = email.size();
     int pos = -1;
-    string collegeID = "iitj.ac.in";
+    string collegeID = "vitstudent.ac.in";
     for (int i = 0; i < n; ++i)
     {
         if (email[i] == '@')
@@ -103,7 +103,7 @@ bool isEmailCorrect(string email, int *tried = NULL)
             cout << deleteLine;
         }
         cout << printtabs(9);
-        cout << fgred << "Invalid Email Id.. Only use IITJ email id" << endl;
+        cout << fgred << "Invalid Email Id.. Only use VIT email id" << endl;
         *tried = 1;
 
         return 0;
@@ -121,7 +121,7 @@ bool isEmailCorrect(string email, int *tried = NULL)
                 cout << deleteLine;
             }
             cout << printtabs(9);
-            cout << fgred << "Invalid Email Id.. Only use IITJ email id" << endl;
+            cout << fgred << "Invalid Email Id.. Only use VIT email id" << endl;
             *tried = 1;
 
             return 0;
